@@ -1,0 +1,40 @@
+/* ================================
+   Sisha UIKit – Themes
+   Seasonal Theme System
+   ================================ */
+
+/* ===== Default (Spring) ===== */
+:root {
+    --si-primary: #0d6efd;
+    --si-secondary: #6c757d;
+    --si-bg: #f7f9fc;
+    --si-surface: #ffffff;
+    --si-text: #1e1e1e;
+}
+
+/* ===== Summer ===== */
+[data-theme="summer"] {
+    --si-primary: #ff6b00;
+    --si-secondary: #ff9f43;
+    --si-bg: #fff3e0;
+    --si-surface: #ffffff;
+    --si-text: #4e342e;
+}
+
+/* ===== Autumn ===== */
+[data-theme="autumn"] {
+    --si-primary: #ff8f00;
+    --si-secondary: #6d4c41;
+    --si-bg: #fff8e1;
+    --si-surface: #ffffff;
+    --si-text: #5d4037;
+}
+
+/* ===== Winter ===== */
+[data-theme="winter"] {
+    --si-primary: #0277bd;
+    --si-secondary: #80deea;
+    --si-bg: #e1f5fe;
+    --si-surface: #ffffff;
+    --si-text: #01579b;
+}

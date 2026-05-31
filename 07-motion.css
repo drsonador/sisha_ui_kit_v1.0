@@ -1,0 +1,13 @@
+/* ================================
+   Sisha UIKit – Motion
+   Animations and Motion Utilities
+   ================================ */
+
+@keyframes siFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.si-fade-in {
+    animation: siFadeIn var(--si-motion-normal);
+}

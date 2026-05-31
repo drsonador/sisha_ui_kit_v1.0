@@ -1,0 +1,68 @@
+/* ================================
+   Sisha UIKit – Components
+   Buttons, Inputs, Cards, Modals
+   ================================ */
+
+/* ===== Button ===== */
+.si-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--si-space-2) var(--si-space-4);
+    border-radius: var(--si-radius-md);
+    background: var(--si-primary);
+    color: #fff;
+    transition: var(--si-motion-normal);
+}
+
+.si-btn:hover {
+    opacity: 0.85;
+}
+
+/* Variants */
+.si-btn-secondary { background: var(--si-secondary); }
+.si-btn-success { background: var(--si-success); }
+.si-btn-danger { background: var(--si-danger); }
+.si-btn-warning { background: var(--si-warning); color: #000; }
+
+/* ===== Input ===== */
+.si-input {
+    width: 100%;
+    padding: var(--si-space-2) var(--si-space-3);
+    border-radius: var(--si-radius-md);
+    border: 1px solid var(--si-muted);
+    background: var(--si-surface);
+    transition: var(--si-motion-normal);
+}
+
+.si-input:focus {
+    border-color: var(--si-primary);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(13,110,253,0.15);
+}
+
+/* ===== Card ===== */
+.si-card {
+    background: var(--si-surface);
+    border-radius: var(--si-radius-lg);
+    padding: var(--si-space-4);
+    box-shadow: var(--si-shadow-md);
+}
+
+/* ===== Modal ===== */
+.si-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.si-modal {
+    background: var(--si-surface);
+    border-radius: var(--si-radius-lg);
+    padding: var(--si-space-6);
+    width: 90%;
+    max-width: 500px;
+}

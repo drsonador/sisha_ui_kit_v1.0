@@ -1,0 +1,9 @@
+/* ================================
+   Sisha UIKit – Fonts
+   ================================ */
+
+@font-face {
+    font-family: "IRANSansX";
+    src: url("./fonts/IRANSansX-Regular.woff2") format("woff2");
+    font-weight: normal;
+}

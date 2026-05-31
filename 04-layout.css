@@ -1,0 +1,24 @@
+/* ================================
+   Sisha UIKit – Layout
+   Grid System (12-column)
+   ================================ */
+
+.si-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--si-space-4);
+}
+
+.si-col {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .si-col-1 { width: 8.33%; }
+    .si-col-2 { width: 16.66%; }
+    .si-col-3 { width: 25%; }
+    .si-col-4 { width: 33.33%; }
+    .si-col-6 { width: 50%; }
+    .si-col-8 { width: 66.66%; }
+    .si-col-12 { width: 100%; }
+}

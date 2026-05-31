@@ -1,0 +1,11 @@
+/* ================================
+   Sisha UIKit – Theme Service
+   ================================ */
+
+.si-theme-preview {
+    background: var(--si-surface);
+    color: var(--si-text);
+    padding: var(--si-space-4);
+    border-radius: var(--si-radius-md);
+    box-shadow: var(--si-shadow-md);
+}

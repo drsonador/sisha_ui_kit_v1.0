@@ -1,0 +1,28 @@
+/* ================================
+   Sisha UIKit – Utilities
+   Spacing, Text, Shadow, Radius
+   ================================ */
+
+/* Text Colors */
+.si-text-primary { color: var(--si-primary); }
+.si-text-muted { color: var(--si-muted); }
+
+/* Margin */
+.si-m-1 { margin: var(--si-space-1); }
+.si-m-2 { margin: var(--si-space-2); }
+.si-m-3 { margin: var(--si-space-3); }
+
+/* Padding */
+.si-p-1 { padding: var(--si-space-1); }
+.si-p-2 { padding: var(--si-space-2); }
+.si-p-3 { padding: var(--si-space-3); }
+
+/* Radius */
+.si-rounded-sm { border-radius: var(--si-radius-sm); }
+.si-rounded-md { border-radius: var(--si-radius-md); }
+.si-rounded-lg { border-radius: var(--si-radius-lg); }
+
+/* Shadow */
+.si-shadow-sm { box-shadow: var(--si-shadow-sm); }
+.si-shadow-md { box-shadow: var(--si-shadow-md); }
+.si-shadow-lg { box-shadow: var(--si-shadow-lg); }
